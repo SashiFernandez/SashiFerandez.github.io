@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(228, 195, 201);
+}
+
+nav{
+    background-color: rgb(240, 101, 124);
+    padding: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#titulo-nombre{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background: rgb(253, 151, 168);
+    padding: 10px;
+}
+
+#titulo-nombre:hover{
+    background-color: pink;
+    color:white
+    
+}
+
+#home{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home #texto1{
+    width: 30%;
+}
+
+#home #img-perfil{
+    width: 30%;
+}
+
+.card-proyecto{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+.card img{
+    height: 300px;
+
+}
+.card:hover{
+    background-color: pink;
+}
+
+#sobre-mi{
+    display: flex;
+    justify-content: space-around;
+}
